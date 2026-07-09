@@ -9,18 +9,87 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
-<body class="size-full bg-black text-white">
-    <header>
-        <nav>
-            <img src="../assets/umslogo.webp" alt="urbn logo">
-            <div class="size-1/3 h-20 bg-white rounded-md">
-                <input type="SEARCH PRODUCT HERE">
+<body class="size-full bg-black  h-30">
+    <header class="p-2.5">
+        <nav class="flex items-center justify-between">
+            <div class="left flex w-[75%] items-center gap-7">
+                <img class="w-80" src="../assets/umslogo.webp" alt="urbn logo">
+                <div class="w-[60%] h-12 bg-white rounded-md">
+                    <input type="text" placeholder="SEARCH PRODUCT HERE"
+                        class="border-none outline-none placeholder:text-black text-left p-3.5">
+                </div>
             </div>
-            <div class="links">
 
+            <div class="links text-white text-2xl flex gap-4.5">
+                <i class="ri-user-line"></i>
+                <i class="ri-poker-hearts-line"></i>
+                <i class="ri-shopping-cart-2-line"></i>
             </div>
         </nav>
     </header>
+
+    <main class="min-h-screen bg-black flex items-start justify-center pt-8">
+    <div class="w-[92%] max-w-7xl text-white">
+        
+        <div class="flex flex-wrap justify-center gap-6 uppercase text-sm font-medium tracking-wider border-b border-zinc-800 pb-5">
+            <h4 class="cursor-pointer hover:text-red-500 transition">clearance</h4>
+            <h4 class="cursor-pointer hover:text-red-500 transition">umsysyms</h4>
+            <h4 class="cursor-pointer hover:text-red-500 transition">eyeyear</h4>
+            <h4 class="cursor-pointer hover:text-red-500 transition">headwear</h4>
+            <h4 class="cursor-pointer hover:text-red-500 transition">loop</h4>
+            <h4 class="cursor-pointer hover:text-red-500 transition">80's</h4>
+            <h4 class="cursor-pointer hover:text-red-500 transition">track</h4>
+            <h4 class="cursor-pointer hover:text-red-500 transition">jacket</h4>
+            <h4 class="cursor-pointer hover:text-red-500 transition">clothing</h4>
+            <h4 class="cursor-pointer hover:text-red-500 transition">accessories</h4>
+            <h4 class="cursor-pointer hover:text-red-500 transition">collabs</h4>
+            <h4 class="cursor-pointer hover:text-red-500 transition">about us</h4>
+        </div>
+
+        <div class="grid grid-cols-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-10">
+
+            <div class="group bg-zinc-900 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
+                <div class="relative bg-white">
+                    <i class="ri-poker-hearts-line absolute top-3 right-3 text-2xl text-black cursor-pointer hover:text-red-500 transition"></i>
+                    <img src="../assets/bag1.webp" alt="product img" class="w-full h-80 object-cover group-hover:scale-105 transition duration-300">
+                </div>
+
+                <div class="p-4">
+                    <h3 class="uppercase text-lg font-semibold tracking-wide">
+                        laptop bag // 002
+                    </h3>
+
+                    <div class="flex items-center gap-3 mt-2">
+                        <span class="text-xl font-bold">Rs. 1799</span>
+                        <span class="text-sm text-zinc-400 line-through">Rs. 2850</span>
+                        <span class="text-sm font-semibold text-red-500">37% OFF</span>
+                    </div>
+                </div>
+            </div>
+            <div class="group bg-zinc-900 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
+                <div class="relative bg-white">
+                    <i class="ri-poker-hearts-line absolute top-3 right-3 text-2xl text-black cursor-pointer hover:text-red-500 transition"></i>
+                    <img src="../assets/bag1.webp" alt="product img" class="w-full h-80 object-cover group-hover:scale-105 transition duration-300">
+                </div>
+
+                <div class="p-4">
+                    <h3 class="uppercase text-lg font-semibold tracking-wide">
+                        laptop bag // 002
+                    </h3>
+
+                    <div class="flex items-center gap-3 mt-2">
+                        <span class="text-xl font-bold">Rs. 1799</span>
+                        <span class="text-sm text-zinc-400 line-through">Rs. 2850</span>
+                        <span class="text-sm font-semibold text-red-500">37% OFF</span>
+                    </div>
+                </div>
+            </div>
+            
+            
+
+        </div>
+    </div>
+</main>
 </body>
 
 </html>
